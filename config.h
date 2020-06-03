@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Noto Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -95,23 +95,23 @@ float alpha = 0.92;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-// 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-//	"#cc241d",
-//	"#98971a",
-//	"#d79921",
-//	"#458588",
-//	"#b16286",
-//	"#689d6a",
-//	"#a89984",
-//	"#928374",
-//	"#fb4934",
-//	"#b8bb26",
-//	"#fabd2f",
-//	"#83a598",
-//	"#d3869b",
-//	"#8ec07c",
-//	"#ebdbb2",
-//   ---
+ 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#cc241d",
+	"#98971a",
+	"#d79921",
+	"#458588",
+	"#b16286",
+	"#689d6a",
+	"#a89984",
+	"#928374",
+	"#fb4934",
+	"#b8bb26",
+	"#fabd2f",
+	"#83a598",
+	"#d3869b",
+	"#8ec07c",
+	"#ebdbb2",
+/* My dark scheme
 	"#000000",
 	"#d54e53",
 	"#b9ca4a",
@@ -128,17 +128,19 @@ static const char *colorname[] = {
 	"#b77ee0",
 	"#54ced6",
 	"#ffffff",
-
+*/
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-//	"#add8e6", /* 256 -> cursor */
-//	"#555555", /* 257 -> rev cursor*/
-//	"#282828", /* 258 -> bg */
-//	"#ebdbb2", /* 259 -> fg */
     "#00ff00", /* 256 -> cursor */
-    "#555555", /* 257 -> rev cursor*/
-    "#000000", /* 258 -> bg */
-    "#eaeaea", /* 259 -> fg */
+//	"#add8e6", /* 256 -> cursor */
+	"#555555", /* 257 -> rev cursor*/
+	"#282828", /* 258 -> bg */
+	"#ebdbb2", /* 259 -> fg */
+    // My custom scheme
+//  "#00ff00", /* 256 -> cursor */
+//  "#555555", /* 257 -> rev cursor*/
+//  "#000000", /* 258 -> bg */
+//  "#eaeaea", /* 259 -> fg */
 };
 
 
